@@ -1,5 +1,16 @@
 $( document ).ready(function() {
-    // console.log( "ready!" );
-    $('.upperCarousel').carousel();
-    $('.lowerCarousel').carousel();
+    $('.carousel1').slick({
+    	slidesToShow: 3,
+    	slidesToScroll: 1,
+    	asNavFor: '.slider-for',
+    	dots: true,
+    	focusOnSelect: true
+    });
+
+    $('.carousel2').slick({
+    	infinite: false,
+    	slidesToShow: 3,
+    	slidesToScroll: 3
+    });
 });
+

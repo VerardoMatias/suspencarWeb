@@ -9,6 +9,8 @@ height: 90px;
 	margin-right: 5px;
 }
 
+
+
 /* product_list - the side bar*/
 .product_list {
 	margin-top: -5px;
@@ -105,4 +107,19 @@ text-align:center;
    top:10px;
    left:10px;
    position:fixed;
+}
+
+/*////////////////////////////*/
+
+
+.fyhCust {
+	background-color: #2E2E2E;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+li{
+	list-style: none;
 }

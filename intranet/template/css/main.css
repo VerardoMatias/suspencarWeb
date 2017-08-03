@@ -123,3 +123,52 @@ html, body {
 li{
 	list-style: none;
 }
+
+
+
+/********************************************************************/
+/********************************************************************/
+/********************************************************************/
+
+
+
+/* make sidebar nav vertical */ 
+@media (min-width: 768px) {
+  .sidebar-nav .navbar .navbar-collapse {
+    padding: 0;
+    max-height: none;
+  }
+  .sidebar-nav .navbar ul {
+    float: none;
+    display: block;
+  }
+  .sidebar-nav .navbar li {
+    float: none;
+    display: block;
+  }
+  .sidebar-nav .navbar li a {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+}
+
+
+
+
+
+
+
+/********************************************************************/
+/********************************************************************/
+/********************************************************************/
+
+
+footer {
+  position: absolute;
+  right: 0;
+  left: 0;
+  /*bottom: 0;*/
+  /*padding: 1rem;*/
+  /*background-color: #efefef;*/
+  /*text-align: center;*/
+}
